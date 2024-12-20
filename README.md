@@ -22,7 +22,7 @@ yay -Syyu
 ```
 download config / alacritty / polybar files and such
 ```
-git clone https://github.com/ClintNyxn/nyxn_dotfiles.git
+git clone https://github.com/ClintNyxn/dotfiles.git
 ```
 
 Change Shell
