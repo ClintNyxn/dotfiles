@@ -12,7 +12,7 @@ cd brave-bin
 makepkg -si
 ```
 
-issue
+currupt issue
 ```
 sudo pacman-key --init
 sudo pacman-key --populate archlinux
@@ -20,6 +20,14 @@ sudo pacman -Sy archlinux-keyring
 sudo pacman -Scc
 yay -Syyu
 ```
+
+conflict isseu
+```
+sudo pacman -Rns openbsd-netcat
+sudo pacman -Rns gnu-netcat
+sudo pacman -Syu
+```
+
 download config / alacritty / polybar files and such
 ```
 git clone https://github.com/ClintNyxn/dotfiles.git
