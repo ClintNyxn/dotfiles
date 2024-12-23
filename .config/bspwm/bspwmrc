@@ -5,7 +5,7 @@ export _JAVA_AWT_WM_NONREPARENTING=1
 
 #---------------------------------------#
 
-BSPWM_FBC='#44BF22'
+BSPWM_FBC='#9c2324'
 BSPWM_NBC='#2E3440'
 BSPWM_ABC='#B48EAD'
 BSPWM_PFC='#A3BE8C'
@@ -17,7 +17,7 @@ bspc config presel_feedback_color "$BSPWM_PFC"
 
 #-----------------------------------------------------------------#
 
-BSPWM_BORDER='0'
+BSPWM_BORDER='2'
 BSPWM_GAP='5'
 BSPWM_SRATIO='0.50'
 
