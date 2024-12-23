@@ -5,8 +5,8 @@ export _JAVA_AWT_WM_NONREPARENTING=1
 
 #---------------------------------------#
 
-BSPWM_FBC='#3C5A8A'
-BSPWM_NBC='#2E3440'
+BSPWM_FBC='#7a7a7a'
+BSPWM_NBC='#545a5a'
 BSPWM_ABC='#B48EAD'
 BSPWM_PFC='#A3BE8C'
 
