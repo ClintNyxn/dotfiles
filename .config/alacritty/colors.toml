@@ -1,25 +1,23 @@
 [colors.primary]
-background = "#0F1212"
-foreground = "#E6E9EF"
+background = "#0F1212"  # Black background
+foreground = "#E6E9EF"  # Bright white for text
 
 [colors.normal]
-black = "#0F1212"
-red = "#DA344D"
-green = "#498E5E"
-yellow = "#61be64"
-blue = "#269f67"
-magenta = "#284f3a"
-cyan = "#269f67" # arch logo 
-
-white = "#BBBBBB" 
+black = "#0F1212"       # Black
+red = "#FF3B47"         # Bright red
+green = "#9E9E9E"       # Gray
+yellow = "#B2B2B2"      # Light gray
+blue = "#ff5e5e"        # Soft red variant
+magenta = "#CF5458"     # Muted red
+cyan = "#7A7A7A"        # Gray
+white = "#E6E9EF"       # Bright white
 
 [colors.bright]
-black = "#292B2B"
-red = "#f54747"
-green = "#269F68"
-yellow = "#689d6a"
-blue = "#61BE64"
-magenta = "#a369ef"
-cyan = "#e7d826"
-
-white = "#E6E9EF" # text
+black = "#292B2B"       # Dim black
+red = "#FF5E5E"         # Vivid red
+green = "#8C8C8C"       # Mid gray
+yellow = "#D6D6D6"      # Light gray
+blue = "#F03C4A"        # Bright red variant
+magenta = "#FF757A"     # Pinkish red
+cyan = "#C4C4C4"        # Gray
+white = "#FFFFFF"       # Pure white
