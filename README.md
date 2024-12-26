@@ -1,5 +1,11 @@
 Hello, this is my bspwm configuration. 
 
+
+download config / alacritty / polybar files and such
+```
+git clone https://github.com/ClintNyxn/dotfiles.git
+```
+
 Dependencies
 ```
 yay -S debugedit fish libinput-gestures calcurse lxappearance neovim telegram-desktop apple-fonts 6-2 cava
