@@ -1,23 +1,23 @@
 [colors.primary]
-background = "#121212"  # Black background
+background = "#0F1212"  # Black background
 foreground = "#E6E9EF"  # Bright white for text
 
 [colors.normal]
 black = "#0F1212"       # Black
-red = "#1B2A39"         # Navy blue (subtle red replacement)
-green = "#1C3A5D"       # Deep navy blue (grayish blue for green)
-yellow = "#2D4A7F"      # Muted navy blue (light gray shift)
-blue = "#3C5A8A"        # Navy blue (soft blue)
-magenta = "#CF5458"     # Muted red (unchanged)
-cyan = "#7A7A7A"        # Gray (unchanged)
+red = "#FF3B47"         # Bright red
+green = "#9E9E9E"       # Gray
+yellow = "#B2B2B2"      # Light gray
+blue = "#ff3b47"        # Soft red variant
+magenta = "#CF5458"     # Muted red
+cyan = "#7A7A7A"        # Gray
 white = "#E6E9EF"       # Bright white
 
 [colors.bright]
 black = "#292B2B"       # Dim black
-red = "#1B2A39"         # Navy blue (vivid red replacement)
-green = "#1C3A5D"       # Deep navy blue
-yellow = "#3C5A8A"      # Navy blue (light gray shift)
-blue = "#2D4A7F"        # Brighter navy blue
-magenta = "#FF757A"     # Pinkish red (unchanged)
-cyan = "#C4C4C4"        # Gray (unchanged)
+red = "#FF5E5E"         # Vivid red
+green = "#8C8C8C"       # Mid gray
+yellow = "#D6D6D6"      # Light gray
+blue = "#F03C4A"        # Bright red variant
+magenta = "#FF757A"     # Pinkish red
+cyan = "#C4C4C4"        # Gray
 white = "#FFFFFF"       # Pure white
