@@ -2,11 +2,9 @@
     <br>
         Crimson
     <br>
-        <img src="./.github/assets/pallet/macchiato.png" width="600px" /> <br>
-
-    
-
 </h1>
+
+### ScreenShots
 
 
 Dependencies
