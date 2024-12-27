@@ -1,4 +1,8 @@
-Hello, this is my bspwm configuration. 
+<h1 align="center">
+    <br>
+        Crimson
+    <br>
+</h1>
 
 Dependencies
 ```
