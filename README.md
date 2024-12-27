@@ -9,7 +9,7 @@
 
 Note- ArchCraft happens to have conflicting packages from installation itself. Fix them before moving forward.
 
-currupt issue
+currupt packages issue
 ```
 sudo pacman-key --init
 sudo pacman-key --populate archlinux
@@ -18,7 +18,7 @@ sudo pacman -Scc
 yay -Syyu
 ```
 
-conflict isseu
+conflicting packages issue
 ```
 sudo pacman -Rns openbsd-netcat
 sudo pacman -Rns gnu-netcat
