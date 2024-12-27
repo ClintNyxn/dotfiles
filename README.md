@@ -4,20 +4,10 @@
     <br>
 </h1>
 
-### ScreenShots
+### Screenshots
 
 
-Dependencies
-```
-yay -S debugedit fish libinput-gestures calcurse lxappearance neovim telegram-desktop apple-fonts 6-2 cava
-``` 
-
-brave
-```
-git clone https://aur.archlinux.org/brave-bin.git
-cd brave-bin
-makepkg -si
-```
+Note- ArchCraft happens to have conflicting packages from installation itself. Fix them before moving forward.
 
 currupt issue
 ```
@@ -33,6 +23,18 @@ conflict isseu
 sudo pacman -Rns openbsd-netcat
 sudo pacman -Rns gnu-netcat
 sudo pacman -Syu
+```
+
+Dependencies
+```
+yay -S debugedit fish libinput-gestures calcurse lxappearance neovim telegram-desktop apple-fonts 6-2 cava
+``` 
+
+brave
+```
+git clone https://aur.archlinux.org/brave-bin.git
+cd brave-bin
+makepkg -si
 ```
 
 download config / alacritty / polybar files and such
