@@ -9,7 +9,7 @@
 
 Note- ArchCraft happens to have conflicting packages from installation itself. Fix them before moving forward.
 
-currupt packages issue
+1. currupt packages issue
 ```
 sudo pacman-key --init
 sudo pacman-key --populate archlinux
@@ -18,31 +18,31 @@ sudo pacman -Scc
 yay -Syyu
 ```
 
-conflicting packages issue
+2. conflicting packages issue
 ```
 sudo pacman -Rns openbsd-netcat
 sudo pacman -Rns gnu-netcat
 sudo pacman -Syu
 ```
 
-Dependencies
+3. Dependencies
 ```
 yay -S debugedit fish libinput-gestures calcurse lxappearance neovim telegram-desktop apple-fonts 6-2 cava
 ``` 
 
-brave
+4. brave
 ```
 git clone https://aur.archlinux.org/brave-bin.git
 cd brave-bin
 makepkg -si
 ```
 
-download config / alacritty / polybar files and such
+5. download config / alacritty / polybar files and such
 ```
 git clone https://github.com/ClintNyxn/dotfiles.git
 ```
 
-Change Shell
+6. Change Shell
 ```
 sudo chsh -s /usr/bin/fish
 echo $SHELL
@@ -50,7 +50,7 @@ echo $SHELL
 output for echo should be */bin/fish*.
 
 
-Gestures and touchpad
+7. Gestures and touchpad
 ```
 cp /etc/libinput-gestures.conf ~/.config/libinput-gestures.conf
 sudo gpasswd -a $USER input
@@ -60,8 +60,7 @@ libinput-gestures-setup start
 libinput-gestures-setup autostart
 ```
 
-
-misc
+8. misc
 ```
 xinput --set-prop "ELAN07D2:00 04F3:321A Touchpad" "libinput Accel Speed" 0.3
 echo "Xcursor.theme: elementary" >> ~/.Xresources
@@ -72,7 +71,7 @@ yay -R firefox
 setxkbmap de us
 ```
 
-Spicetify
+9. Spicetify
 ```
 yay -S spotify
 
@@ -92,7 +91,7 @@ spicetify backup apply
 spicetify apply
 ```
 
-minecraft
+10. minecraft
 ```
 yay -S nvidia
 yay -S optimus-manager
