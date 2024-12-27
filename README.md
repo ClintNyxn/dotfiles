@@ -53,6 +53,7 @@ makepkg -si
 ### 5. Download Configuration Files
 ```bash
 git clone https://github.com/ClintNyxn/dotfiles.git
+# drag and drop the installed .config folder, on the /home/.config folder
 ```
 
 ### 6. Switch to Fish Shell
