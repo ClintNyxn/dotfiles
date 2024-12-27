@@ -9,7 +9,7 @@
 
 Note- ArchCraft happens to have conflicting packages from installation itself. Fix them before moving forward.
 
-1. conflicting packages issue
+1. ***conflicting packages issue***
 ```
 sudo pacman -Rns openbsd-netcat
 sudo pacman -Rns gnu-netcat
