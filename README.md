@@ -114,7 +114,6 @@ spicetify apply
 ### 10. Nvidia Setup for Minecraft
 ```bash
 yay -S nvidia
-yay -S optimus-manager
 yay -S nvidia-prime
 sudo systemctl enable optimus-manager
 sudo systemctl start optimus-manager
