@@ -1,11 +1,11 @@
 <h1 align="center">
   <br>
-  ⚜️ Crimson ⚜️
+  Crimson
   <br>
 </h1>
 
 <p align="center">
-  A meticulously crafted collection of dotfiles for an elegant ArchCraft setup
+  A minimalistic bspwm archcraft setup
 </p>
 
 <div align="center">
@@ -16,11 +16,9 @@
   
 </div>
 
-## 📋 Prerequisites
-
 > **Note**: ArchCraft may have conflicting packages from installation. Fix these issues before proceeding.
 
-## 🛠️ Installation Guide
+## 🛠️ Installation Instructions 
 
 ### 1. Fix Conflicting Packages
 ```bash
