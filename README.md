@@ -9,20 +9,20 @@
 
 Note- ArchCraft happens to have conflicting packages from installation itself. Fix them before moving forward.
 
-1. currupt packages issue
+1. conflicting packages issue
+```
+sudo pacman -Rns openbsd-netcat
+sudo pacman -Rns gnu-netcat
+sudo pacman -Syu
+```
+
+2. currupt packages issue
 ```
 sudo pacman-key --init
 sudo pacman-key --populate archlinux
 sudo pacman -Sy archlinux-keyring
 sudo pacman -Scc
 yay -Syyu
-```
-
-2. conflicting packages issue
-```
-sudo pacman -Rns openbsd-netcat
-sudo pacman -Rns gnu-netcat
-sudo pacman -Syu
 ```
 
 3. Dependencies
