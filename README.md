@@ -120,8 +120,8 @@ sudo systemctl start optimus-manager
 ```
 
 ## 📸 Screenshots
+wait for them ig? 
 
-[Your screenshots will go here]
 
 ## 🤝 Contributing
 
