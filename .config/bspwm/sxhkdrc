@@ -1,9 +1,6 @@
 ctrl + space 
 	brave
 
-super + shift + s 
-  blender
-
 alt + n
 	nitrogen
 	
@@ -28,13 +25,17 @@ super + Return
 super + k
 	rofi_launcher
 
+XF86Launch2
+    mousepad
+
 157
-  notepad
+    mousepad
 
-
-
-super + {f,e}
-	{thunar,geany}
+super + f 
+ thunar
+  
+super + e 
+  geany
 
 ctrl + alt + m
 	bspmusic
@@ -45,8 +46,6 @@ super + t
 super + h
   bspwinmask
 
-super + p 
-  bspcolorpicker
 
 super + alt + space + ctrl + shift + Print
   poweroff
