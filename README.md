@@ -40,7 +40,7 @@ yay -Syyu
 
 ### 3. Install Dependencies
 ```bash
-yay -S debugedit fish libinput-gestures calcurse lxappearance neovim telegram-desktop apple-fonts 6-2 cava
+yay -S debugedit fish libinput-gestures calcurse mousepad lxappearance neovim telegram-desktop apple-fonts 6-2 cava
 ```
 
 ### 4. Install Brave Browser
