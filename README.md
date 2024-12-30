@@ -40,7 +40,7 @@ yay -Syyu
 
 ### 3. Install Dependencies
 ```bash
-yay -S debugedit fish libinput-gestures calcurse mousepad lxappearance neovim telegram-desktop apple-fonts 6-2 cava
+yay -S debugedit fish libinput-gestures wget nodejs npm calcurse mousepad lxappearance neovim telegram-desktop apple-fonts 6-2 cava
 ```
 
 ### 4. Install Brave Browser
@@ -117,6 +117,14 @@ yay -S nvidia
 yay -S nvidia-prime
 sudo systemctl enable optimus-manager
 sudo systemctl start optimus-manager
+```
+
+### 11. BetterDiscord
+```bash
+yay -S discord
+wget https://github.com/BetterDiscord/Installer/releases/latest/download/BetterDiscord-Linux.AppImage
+chmod +x BetterDiscord-Linux.AppImage
+./BetterDiscord-Linux.AppImage
 ```
 
 ## 📸 Screenshots
