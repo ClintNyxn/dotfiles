@@ -77,7 +77,7 @@ curl -fsSL https://raw.githubusercontent.com/spicetify/cli/main/install.sh | sh
 
 nvim .config/spicetify/config-xpui.ini
 it should be 
-spotify_path = /home/nyxn/.config/spotify
+spotify_path = /home/<username>/.config/spotify
 
 spicetify backup apply      
 spicetify apply
