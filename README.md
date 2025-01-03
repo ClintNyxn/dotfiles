@@ -59,7 +59,7 @@ echo "Xcursor.theme: elementary" >> ~/.Xresources
 xrdb ~/.Xresources
 betterlockscreen -u Pictures/wallpapers/mountain.png
 git clone https://github.com/NvChad/starter ~/.config/nvim && nvim
-yay -R firefox
+yay -R firefox #becuase it sucks ass
 setxkbmap de us
 ```
 
@@ -86,11 +86,7 @@ spicetify apply
 minecraft
 ```
 yay -S nvidia
-yay -S optimus-manager
 yay -S nvidia-prime
-
-sudo systemctl enable optimus-manager
-sudo systemctl start optimus-manager
 ```
 
     
