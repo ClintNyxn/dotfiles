@@ -2,7 +2,7 @@ Hello, this is my bspwm configuration.
 
 Dependencies
 ```
-yay -S debugedit fish libinput-gestures calcurse lxappearance neovim telegram-desktop apple-fonts 6-2 cava mousepad
+yay -S debugedit fish libinput-gestures calcurse lxappearance neovim telegram-desktop apple-fonts 6-2 cava mousepad fum
 ``` 
 
 brave
