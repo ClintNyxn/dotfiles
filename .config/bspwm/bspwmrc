@@ -5,8 +5,8 @@ export _JAVA_AWT_WM_NONREPARENTING=1
 
 #---------------------------------------#
 
-BSPWM_FBC='#9c2324'
-BSPWM_NBC='#2E3440'
+BSPWM_FBC='#9e9e9e'
+BSPWM_NBC='#383838'
 BSPWM_ABC='#B48EAD'
 BSPWM_PFC='#A3BE8C'
 
@@ -60,15 +60,16 @@ xfce4-power-manager &
 xsetroot -cursor_name left_ptr
 # Restore wallpaper
 nitrogen --restore &
-# Start mpd
-exec mpd &
+
 
 # Start bspwm scripts
 bspcomp &
 bspdunst &
 bspfloat &
-xmodmap .Xmodmap &
 bash ~/.config/polybar/launch.sh --forest &
 libinput-gestures-setup restart &
-xinput --set-prop "ELAN07D2:00 04F3:321A Touchpad" "libinput Accel Speed" 0.3 &
+xinput --set-prop "ELAN07D2:00 04F3:321A Touchpad" "libinput Accel Speed" 0.6 &
 setxkbmap de us
+notify-send "Welcome Back Boss"
+bash ~/welcome_back.sh &
+telegram-desktop -startintray &

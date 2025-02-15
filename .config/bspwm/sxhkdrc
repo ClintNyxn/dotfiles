@@ -33,7 +33,10 @@ XF86Launch2
 
 super + f 
  thunar
-  
+
+super + p 
+  bspcolorpicker
+
 super + e 
   geany
 
@@ -51,7 +54,7 @@ super + alt + space + ctrl + shift + Print
   poweroff
 
 super + l
-    betterlockscreen --lock dim --off 4
+    betterlockscreen -l
     
 Print
 	bspscreenshot --area
@@ -85,11 +88,11 @@ super + shift + Right
 
 # Expanding windows
 super + alt + {Left,Right,Up,Down}
-	bspc node -z {left -20 0,right 20 0,top 0 -20,bottom 0 20}
+	bspc node -z {left -1 0,right 1 0,top 0 -1,bottom 0 1}
 	
 # Shrinking windows
-super + shift + {Left,Right,Up,Down}
-	bspc node -z {left 20 0,right -20 0,top 0 20,bottom 0 -20}
+super + ctrl + {Right,Left,Up,Down}
+	bspc node -z {left 1 0,right -1 0,top 0 1,bottom 0 -1}
 	
 # Brighness control
 XF86MonBrightness{Up,Down}
