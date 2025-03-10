@@ -87,6 +87,7 @@ minecraft
 ```
 yay -S nvidia
 yay -S nvidia-prime
+sudo pacman-Syu
+sudo nano /etc/pacman.conf
+sudo pacman -S steam
 ```
-
-    
