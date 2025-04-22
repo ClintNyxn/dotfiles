@@ -1,4 +1,4 @@
-Hello, this is my ArchCraft [bspwm] rice. 
+Hi, this is my ArchCraft [bspwm] rice. 
 
 Dependencies
 ```
