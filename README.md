@@ -1,4 +1,6 @@
 Hi, this is my ArchCraft [bspwm] rice. 
+it's a clean, minimalistic, stylish configuration with polybar, rofi, alacritty etc.
+feel free to use whichever part you find handy.
 
 Dependencies
 ```
