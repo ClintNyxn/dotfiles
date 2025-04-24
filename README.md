@@ -128,7 +128,10 @@ chmod +x BetterDiscord-Linux.AppImage
 ```
 
 ## 📸 Screenshots
-wait for them ig? 
+![Screenshot_2025-04-24-20-54-20_1920x1080](https://github.com/user-attachments/assets/344c0484-a725-4fa5-8a4d-035c2482ec22)
+![Screenshot_2025-04-24-21-06-34_1920x1080](https://github.com/user-attachments/assets/df306d3a-c65a-4573-b1da-cc8b413dca2c)
+![Screenshot_2025-04-24-20-59-28_1920x1080](https://github.com/user-attachments/assets/b888e104-e7ef-42f3-9b0f-430394607cc7)
+![Screenshot_2025-04-24-20-55-00_1920x1080](https://github.com/user-attachments/assets/b44b47f3-605a-4ef1-bc23-ea41f135f8b8)
 
 
 ## 🤝 Contributing
@@ -138,3 +141,4 @@ Feel free to contribute to this repository by submitting pull requests or creati
 ## 📜 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
