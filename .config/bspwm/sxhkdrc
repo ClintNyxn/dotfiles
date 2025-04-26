@@ -57,7 +57,7 @@ super + l
     betterlockscreen -l
     
 Print
-	bspscreenshot --area
+	flameshot gui
 
 XF86Audio{RaiseVolume,LowerVolume}
 	bspvolume{ --inc, --dec}
