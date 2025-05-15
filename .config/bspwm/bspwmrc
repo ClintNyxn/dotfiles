@@ -1,3 +1,4 @@
+
 #!/usr/bin/env bash
 BSPDIR="$HOME/.config/bspwm"
 export PATH="${PATH}:$BSPDIR/scripts"
@@ -68,8 +69,6 @@ bspdunst &
 bspfloat &
 bash ~/.config/polybar/launch.sh --forest &
 libinput-gestures-setup restart &
-xinput --set-prop "ELAN07D2:00 04F3:321A Touchpad" "libinput Accel Speed" 0.6 &
+xinput --set-prop "ELAN07D2:00 04F3:321A Touchpad" "libinput Accel Speed" 0.3 &
 setxkbmap de us
 notify-send "Welcome Back Boss"
-bash ~/welcome_back.sh &
-telegram-desktop -startintray &
